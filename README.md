@@ -3,6 +3,27 @@ Compilation of JS patterns
 [Object Literal Pattern](https://codepen.io/anon/pen/OVZpqO?editors=1010)
 
 ```
+//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js
+https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.1.2/mustache.min.js
+
+<div id="peopleModule">
+    <h1>People</h1>
+    <input placeholder="name" type="text">
+    <button id="addPerson">Add Person</button>
+    <ul id="people">
+        <script id="people-template" type="text/template">
+            {{#people}}
+                <li>
+                    <span>{{.}}</span>
+                    <i class="del">X</i>
+                </li>
+            {{/people}}
+        </script>
+    </ul>
+</div>
+```
+
+``` Javascripts
 var people = {
     people: ['Will', 'Steve'],
     init: function() {
