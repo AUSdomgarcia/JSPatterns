@@ -122,3 +122,8 @@ var people = (function(){
 //people.deletePerson(0);
 ```
 
+## Pubsub Pattern
+
+[Git source](https://gist.github.com/learncodeacademy/777349747d8382bfb722)
+
+
