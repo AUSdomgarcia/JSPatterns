@@ -125,5 +125,6 @@ var people = (function(){
 ## Pubsub Pattern
 
 [Git source](https://gist.github.com/learncodeacademy/777349747d8382bfb722)
+[Bi-directional](https://github.com/frufin/js-bidirectional-pubsub/blob/master/events.js)
 
 
